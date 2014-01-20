@@ -1,0 +1,7 @@
+[{
+    "id": "edit",
+    "children": [{
+        "caption": "String to Comment",
+        "command": "string_to_comment"
+    }]
+}]
