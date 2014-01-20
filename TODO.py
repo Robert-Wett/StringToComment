@@ -15,7 +15,7 @@ class sentence(object):
         if word is None:
             self.sentence = []
         else:
-            self.sentence = [].append(word)
+            self.sentence = [word]
      
     def append(self, word):
         self.sentence.append(word + " ")
