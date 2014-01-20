@@ -9,4 +9,5 @@ This will eventually become a **Sublime Text 2** plugin.
 ###TODO: 
  * Handle multiple-selections better
  * Default the `comment_char` to that of the view's current language syntax
+ * Add in logic to handle strings that are longer than 80 chars without a `\n`
  * ...Profit!
