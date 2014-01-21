@@ -36,6 +36,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 </code></pre>
 
 ===
+##Workflow
 **Highlight text**:  
 ![Highlight Text](https://raw.github.com/Robert-Wett/StringToComment/master/img/step1.png)  
   
