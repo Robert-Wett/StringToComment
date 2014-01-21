@@ -1,4 +1,4 @@
-# String to Comment
+# String to Comment (ST2 Plugin)
 ## Purpose:
 I find myself constantly copy+pasting comments/info into my python scripts, then manually formatting them (well, I start a macro with `10Wi<enter>`). I'd like to just highlight the string I want to convert to comments, press a command, and let it do it.
 
@@ -13,8 +13,7 @@ This will eventually become a **Sublime Text 2** plugin.
  * Remove trailing whitespaces
  * Add windows/osx/linux keybind files
  * Add config file to pull `max` from
- * ...Profit!
-
+ * ...Profit!  
 ===
 ###Current State
 **Input:**  
@@ -49,3 +48,20 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 **Profit!**  
 ![Profit!!!!!!!](https://raw.github.com/Robert-Wett/StringToComment/master/img/step3.png)
 
+  
+     
+                              _   _   _              __ 
+                             | | | | | |            / _|
+          __ _  __      _____| |_| |_| | ___   __ _| |_ 
+         / _` | \ \ /\ / / _ \ __| __| |/ _ \ / _` |  _|
+        | (_| |  \ V  V /  __/ |_| |_| | (_) | (_| | |  
+         \__,_|   \_/\_/ \___|\__|\__|_|\___/ \__,_|_|  
+                                                        
+           _       _       _                            
+          (_)     (_)     | |                           
+           _  ___  _ _ __ | |_                          
+          | |/ _ \| | '_ \| __|                         
+          | | (_) | | | | | |_                          
+          | |\___/|_|_| |_|\__|                         
+         _/ |                                           
+        |__/                                            
