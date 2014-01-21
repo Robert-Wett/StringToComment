@@ -34,3 +34,14 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 # containing Lorem Ipsum passages, and more recently with desktop publishing  
 # software like Aldus PageMaker including versions of Lorem Ipsum.
 </code></pre>
+
+===
+**Highlight text**:  
+![Highlight Text](https://raw.github.com/Robert-Wett/StringToComment/master/img/step1.png)  
+  
+**Right-Click, String => Text**:  
+![Right-Click, String => Text](https://raw.github.com/Robert-Wett/StringToComment/master/img/step2.png)
+
+**Profit!**
+![Profit!!!!!!!](://raw.github.com/Robert-Wett/StringToComment/master/img/step3.png)
+
