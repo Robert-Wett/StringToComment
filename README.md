@@ -10,6 +10,9 @@ This will eventually become a **Sublime Text 2** plugin.
  * Handle multiple-selections better
  * ~~Default the comment character to that of the view's current language syntax~~
  * Add in logic to handle strings that are longer than 80 chars without a `\n`
+ * Remove trailing whitespaces
+ * Add windows/osx/linux keybind files
+ * Add config file to pull `max` from
  * ...Profit!
 
 ===
