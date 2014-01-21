@@ -43,5 +43,5 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 ![Right-Click, String => Text](https://raw.github.com/Robert-Wett/StringToComment/master/img/step2.png)
 
 **Profit!**
-![Profit!!!!!!!](://raw.github.com/Robert-Wett/StringToComment/master/img/step3.png)
+![Profit!!!!!!!](https://raw.github.com/Robert-Wett/StringToComment/master/img/step3.png)
 
