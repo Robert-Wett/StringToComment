@@ -3,8 +3,8 @@ import sublime, sublime_plugin
 
 def str_to_comment(self, sel, edit, add_char=False, char=''):
     comment_char = char if add_char else ''
-    words = self.view.substr(sel).split(" ")
-    comments = format_string(words, d=comment_char)
+    words = self.view.substr(sel).lstrip().split(" ")
+    comments = format_string(words, d=comment_char).replace(r"\s+\n", '\n')
     self.view.replace(edit, sel, comments)
     if not add_char:
         self.view.run_command("toggle_comment", {"block" : "false"})
@@ -13,11 +13,10 @@ def format_string(words, d, max=80):
     total, str_builder = 0, [d]
     for idx, word in enumerate(words):
         if total + len(word) > max:
-            str_builder[idx-1] = str_builder[idx-1][:-1]
             str_builder.append('\n' + d)
             total = 0
+        str_builder.append(word + ' ')
         total += len(word) + 1
-        str_builder.append(word + ' ')    
     return "".join(str_builder)
 
 
