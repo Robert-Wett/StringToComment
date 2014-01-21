@@ -1,0 +1,7 @@
+[
+    { 
+    	"id": "string_to_comment_menu",
+    	"command": "string_to_comment",
+    	"caption": "String => Comment"
+    }
+]
