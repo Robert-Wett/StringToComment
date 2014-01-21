@@ -1,4 +1,4 @@
-# String to Comment
+# String to Comment (ST2 Plugin)
 ## Purpose:
 I find myself constantly copy+pasting comments/info into my python scripts, then manually formatting them (well, I start a macro with `10Wi<enter>`). I'd like to just highlight the string I want to convert to comments, press a command, and let it do it.
 
@@ -10,8 +10,10 @@ This will eventually become a **Sublime Text 2** plugin.
  * Handle multiple-selections better
  * ~~Default the comment character to that of the view's current language syntax~~
  * Add in logic to handle strings that are longer than 80 chars without a `\n`
- * ...Profit!
-
+ * Remove trailing whitespaces
+ * Add windows/osx/linux keybind files
+ * Add config file to pull `max` from
+ * ...Profit!  
 ===
 ###Current State
 **Input:**  
@@ -36,12 +38,30 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 </code></pre>
 
 ===
+##Workflow
 **Highlight text**:  
 ![Highlight Text](https://raw.github.com/Robert-Wett/StringToComment/master/img/step1.png)  
   
 **Right-Click, String => Text**:  
 ![Right-Click, String => Text](https://raw.github.com/Robert-Wett/StringToComment/master/img/step2.png)
 
-**Profit!**
-![Profit!!!!!!!](://raw.github.com/Robert-Wett/StringToComment/master/img/step3.png)
+**Profit!**  
+![Profit!!!!!!!](https://raw.github.com/Robert-Wett/StringToComment/master/img/step3.png)
 
+  
+     
+                              _   _   _              __ 
+                             | | | | | |            / _|
+          __ _  __      _____| |_| |_| | ___   __ _| |_ 
+         / _` | \ \ /\ / / _ \ __| __| |/ _ \ / _` |  _|
+        | (_| |  \ V  V /  __/ |_| |_| | (_) | (_| | |  
+         \__,_|   \_/\_/ \___|\__|\__|_|\___/ \__,_|_|  
+                                                        
+           _       _       _                            
+          (_)     (_)     | |                           
+           _  ___  _ _ __ | |_                          
+          | |/ _ \| | '_ \| __|                         
+          | | (_) | | | | | |_                          
+          | |\___/|_|_| |_|\__|                         
+         _/ |                                           
+        |__/                                            
