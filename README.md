@@ -43,8 +43,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 *In this example we are also setting the syntax to `Closure`*
 ![Highlight Text](https://raw.github.com/Robert-Wett/StringToComment/master/img/step1.png)  
   
-**Right-Click, String => Text**:  
-![Right-Click, String => Text](https://raw.github.com/Robert-Wett/StringToComment/master/img/step2.png)
+**Right-Click, String => Comment**:  
+![Right-Click, String => Comment](https://raw.github.com/Robert-Wett/StringToComment/master/img/step2.png)
 
 **Profit!**  
 *notice the native comments for the currently set view syntax, or `Closure`*
