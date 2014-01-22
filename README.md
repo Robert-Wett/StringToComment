@@ -1,69 +1,18 @@
-# String to Comment (ST2 Plugin)
-## Purpose:
-I find myself constantly copy+pasting comments/info into my python scripts, then manually formatting them (well, I start a macro with `10Wi<enter>`). I'd like to just highlight the string I want to convert to comments, press a command, and let it do it.
+## About
+StringToComment allows you to highlight a string and convert it into an 80-char delimited block comment in the language currently set in the view.
 
-Sure, you can take a string and comment it no problem, but as far as I know there doesn't exist a plugin that will split the lines based on a defined character count, like an 80 char limit via PEP (python)
+## Features
+* Converts highlighted text into a comment block.
+* Uses currently set language to determine comment syntax.
+* Trims leading space and ensures all lines have no trailing spaces.
+  - *TODO*: Add leading space as a pad for each new-line to preserve initial position.
 
-This will eventually become a **Sublime Text 2** plugin.
+## Author's Note
+I wrote this plugin because I found myself manually (or with a basic macro) turning a sentence/description into a nicely formatted comment to add above a snippet of code way too often.
 
-###TODO: 
- * Handle multiple-selections better
- * ~~Default the comment character to that of the view's current language syntax~~
- * Add in logic to handle strings that are longer than 80 chars without a `\n`
- * Remove trailing whitespaces
- * Add windows/osx/linux keybind files
- * Add config file to pull `max` from
- * ...Profit!  
-===
-###Current State
-**Input:**  
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  
-  
-**Output:**
-<pre><code># Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem  
-# Ipsum has been the industry's standard dummy text ever since the 1500s, when an  
-# unknown printer took a galley of type and scrambled it to make a type specimen  
-# book. It has survived not only five centuries, but also the leap into electronic  
-# typesetting, remaining essentially unchanged. It was popularised in the 1960s  
-# with the release of Letraset sheets containing Lorem Ipsum passages, and more  
-# recently with desktop publishing software like Aldus PageMaker including  
-# versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and  
-# typesetting industry. Lorem Ipsum has been the industry's standard dummy text  
-# ever since the 1500s, when an unknown printer took a galley of type and  
-# scrambled it to make a type specimen book. It has survived not only five  
-# centuries, but also the leap into electronic typesetting, remaining essentially  
-# unchanged. It was popularised in the 1960s with the release of Letraset sheets  
-# containing Lorem Ipsum passages, and more recently with desktop publishing  
-# software like Aldus PageMaker including versions of Lorem Ipsum.
-</code></pre>
+## Installation
+Install StringToComment through [Package Control](https://sublime.wbond.net/) or download and extract it into your Sublime Text `Packages` folder.
 
-===
-##Workflow
-**Highlight text**:  
-*In this example we are also setting the syntax to `Closure`*
-![Highlight Text](https://raw.github.com/Robert-Wett/StringToComment/master/img/step1.png)  
-  
-**Right-Click, String => Comment**:  
-![Right-Click, String => Comment](https://raw.github.com/Robert-Wett/StringToComment/master/img/step2.png)
-
-**Profit!**  
-*notice the native comments for the currently set view syntax, or `Closure`*
-![Profit!!!!!!!](https://raw.github.com/Robert-Wett/StringToComment/master/img/step3.png)
-
-  
-     
-                              _   _   _              __ 
-                             | | | | | |            / _|
-          __ _  __      _____| |_| |_| | ___   __ _| |_ 
-         / _` | \ \ /\ / / _ \ __| __| |/ _ \ / _` |  _|
-        | (_| |  \ V  V /  __/ |_| |_| | (_) | (_| | |  
-         \__,_|   \_/\_/ \___|\__|\__|_|\___/ \__,_|_|  
-                                                        
-           _       _       _                            
-          (_)     (_)     | |                           
-           _  ___  _ _ __ | |_                          
-          | |/ _ \| | '_ \| __|                         
-          | | (_) | | | | | |_                          
-          | |\___/|_|_| |_|\__|                         
-         _/ |                                           
-        |__/                                            
+## Usage
+* Default binding: <kbd>Ctrl+Shift+c</kbd> + <kbd>Ctrl+c</kbd> 
+* Highlight text <kbd>></kbd> right-click <kbd>></kbd> choose <kbd>String to Comment</kbd>
