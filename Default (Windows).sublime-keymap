@@ -1,0 +1,3 @@
+[
+	{ "keys": ["ctrl+shift+c", "ctrl+c"], "command": "string_to_comment" }
+]
