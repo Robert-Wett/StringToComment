@@ -20,6 +20,10 @@ def str_to_comment(self, sel, edit, add_char=False, char=''):
     words = self.view.substr(sel).lstrip().split(" ")
     comments = format_string(words, d=comment_char).replace(r"\s+\n", '\n')
     self.view.replace(edit, sel, comments)
+    # We want to let the native ST2 `toggle_comment` command 
+    # to smartly add the current language's comment notation
+    # to the selection. If `add_char` is `True`, however, we 
+    # have already manually added the comment notation.
     if not add_char:
         self.view.run_command("toggle_comment", {"block" : "false"})
 
