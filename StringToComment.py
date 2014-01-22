@@ -2,6 +2,20 @@ import sublime, sublime_plugin
 
 
 def str_to_comment(self, sel, edit, add_char=False, char=''):
+    """
+    Converts a string into a valid comment string based on the
+    language set for the current window/view
+
+    Keyword arguments:
+    self     -- reference to window object
+    sel      -- the selected region to act on
+    edit     -- sublime class needed for text manipulation
+    add_char -- determines whether or not to manually prefix
+                each line with a supplied `char` and whether
+                or not to make the `toggle_comment` command.
+                (default False)
+    char     -- the value to prefix each new-line with (default '')
+    """ 
     comment_char = char if add_char else ''
     words = self.view.substr(sel).lstrip().split(" ")
     comments = format_string(words, d=comment_char).replace(r"\s+\n", '\n')
