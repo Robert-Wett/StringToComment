@@ -14,5 +14,5 @@ I wrote this plugin because I found myself manually (or with a basic macro) turn
 Install StringToComment through [Package Control](https://sublime.wbond.net/) or download and extract it into your Sublime Text `Packages` folder.
 
 ## Usage
-* Default binding: <kbd>Ctrl+Shift+c</kbd> + <kbd>Ctrl+c</kbd> 
+* Default binding: <kbd>Ctrl+Shift+c</kbd> + <kbd>Ctrl+Shift+c</kbd> 
 * Highlight text <kbd>></kbd> right-click <kbd>></kbd> choose <kbd>String to Comment</kbd>
