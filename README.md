@@ -1,3 +1,7 @@
+# Deprecated / Not Listed
+###[check this pull-request for details](https://github.com/wbond/package_control_channel/pull/2670#issuecomment-33094120)
+I still use it :)
+
 ## About
 StringToComment allows you to highlight a string and convert it into an 80-char delimited block comment in the language currently set in the view.
 
